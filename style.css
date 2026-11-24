@@ -1,0 +1,79 @@
+/* Step 3: Body Background Color */
+
+body {
+    background-color: coral;
+}
+
+
+/* Step 5: Class Selector */
+
+.head {
+    color: darkblue;
+}
+
+
+/* Step 6: ID Selector - Background Color */
+
+#bglime {
+    background-color: lime;
+}
+
+
+/* Step 7: Change "head" text to red */
+
+#bglime span {
+    color: red;
+}
+
+
+/* Step 8: Element Selector */
+
+p {
+    color: white;
+}
+
+
+/* Step 9: ID Selector */
+
+#para {
+    color: green;
+}
+
+
+/* Step 10: Descendant Selector */
+
+#para span {
+    color: black;
+    font-size: 24px;
+}
+
+
+/* Step 11: Styling "here" without ID or Class */
+
+/* First link */
+
+ul li:first-child mark {
+    background-color: yellow;
+}
+
+/* Second link */
+
+ul li:last-child mark {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Ordered List Styling */
+
+/* Second list item */
+
+ol li:nth-child(2) {
+    color: blue;
+}
+
+/* Third list item */
+
+ol li:nth-child(3) {
+    color: red;
+}
